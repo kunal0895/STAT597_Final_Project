@@ -207,3 +207,59 @@ plot.debt_to_gdp_map  + coord_cartesian(xlim = c(-15, 50), ylim = c(30, 75)) +
        )
   )
 ```
+
+#### Now some analysis
+
+```{r}
+df_Continents_tidy <- gather(df.map_public_debt, `X1996`:`X2016`, key="year", value="count")
+
+df_Continents_tidy_notNA <- na.omit(df_Continents_tidy)
+
+df_by_Continents <- df_Continents_tidy_notNA %>%
+  group_by(Region, year) %>%
+  summarise(Total = mean(count))
+
+write.csv(df_by_Continents, "Continent Level Data", row.names = FALSE)
+```
+
+#### Each point is the mean here, for example a value in 2015 for the Asian region would represent the average Public debt to GDP ratio of all countries in that continent.
+
+```{r}
+ggplot(data = df_by_Continents, aes(df_by_Continents$year, df_by_Continents$Total, colour = Region, group = df_by_Continents$Region)) +
+  geom_point() + geom_line() + theme(axis.text.x = element_text(angle=90, hjust=1)) + 
+  xlab("Year") + ylab("Public debt as percentage of GDP") + 
+  ggtitle("Public debt as percentage of GDP for Continents from 1996 to 2016")
+```
+
+#### Since the above plot just takes the average over all the countries for a continent, let us analyze at the country level. Many values exist for each country because of the group and order of that country
+#### But since we are interested in data at country level, we take the mean. All values are the same for each country
+#### The granularity of the data is Region(Continent), country, and subregion
+#### However, different sub regions for one country have the same debt to GDP ratio. This means that the value differs with each country. For any subregion within the same country, the value is the same.
+#### To summarize, the mean gives us the same value. (A country having 10 entries, and 2 sub regions, which means 20 entries overall, but all 20 entries having the same debt to GDP ratio value, will lead to the mean of those 20 values resulting in the same value.)
+
+```{r}
+df_public_debt_country <- df_Continents_tidy_notNA %>%
+  group_by(Country, year, Region) %>%
+  summarise(Debt_as_pct_of_GDP = mean(count))
+
+write.csv(df_public_debt_country, "Country Level Data", row.names = FALSE)
+```
+
+#### Which country had the highest ever debt to GDP ratio from 1996 to 2016?
+
+```{r}
+arrange(df_public_debt_country, desc(Debt_as_pct_of_GDP))[1:5, ]
+
+```
+
+#### Japan had the highest, infact the highest for the past 5 years.
+
+#### Which country had the lowest ever debt to GDP ratio from 1996 to 2016?
+
+```{r}
+arrange(df_public_debt_country, Debt_as_pct_of_GDP)[1:5, ]
+```
+
+#### The African and Middle East Countries have the lowest ratio. Might be because they have a smaller area?
+#### Which might mean lesser population? GDP might be low. Or is it not too developed? Not much growth? There can be many factors
+#### But a lower ratio would would still be good as they owe very less money.

@@ -1,0 +1,1228 @@
+"Country","year","Region","Debt_as_pct_of_GDP"
+"Angola","X1996","Africa",147.943
+"Angola","X1997","Africa",118.143
+"Angola","X1998","Africa",154.949
+"Angola","X1999","Africa",165.252
+"Angola","X2000","Africa",89.903
+"Angola","X2001","Africa",80.1735
+"Angola","X2002","Africa",72.972
+"Angola","X2003","Africa",59.7706
+"Angola","X2004","Africa",51.9537355917515
+"Angola","X2005","Africa",35.7366342955068
+"Angola","X2006","Africa",18.6965618556975
+"Angola","X2007","Africa",16.0655643646405
+"Angola","X2008","Africa",16.64651492299
+"Angola","X2009","Africa",22.7096667826384
+"Angola","X2010","Africa",44.2905074773269
+"Angola","X2011","Africa",33.8008682866954
+"Angola","X2012","Africa",29.4866609972182
+"Angola","X2013","Africa",32.8741264896889
+"Angola","X2014","Africa",40.6608971975564
+"Angola","X2015","Africa",64.2387405069085
+"Angola","X2016","Africa",57.4
+"Armenia","X1996","Europe",30.332
+"Armenia","X1997","Europe",32.756
+"Armenia","X1998","Europe",33.5592
+"Armenia","X1999","Europe",38.4095
+"Armenia","X2000","Europe",37.9542
+"Armenia","X2001","Europe",36.2702
+"Armenia","X2002","Europe",36.6753
+"Armenia","X2003","Europe",33.1351
+"Armenia","X2004","Europe",28.9247
+"Armenia","X2005","Europe",20.8491
+"Armenia","X2006","Europe",18.0946
+"Armenia","X2007","Europe",14.2494993548176
+"Armenia","X2008","Europe",14.6309642779242
+"Armenia","X2009","Europe",34.1357880994289
+"Armenia","X2010","Europe",33.7411560020151
+"Armenia","X2011","Europe",35.6911279079664
+"Armenia","X2012","Europe",36.4768505038057
+"Armenia","X2013","Europe",37.9586563652166
+"Armenia","X2014","Europe",41.4472319048233
+"Armenia","X2015","Europe",46.8930484844894
+"Armenia","X2016","Europe",53.4
+"Australia","X1996","Oceania",29.1138962663799
+"Australia","X1997","Oceania",25.7871581368043
+"Australia","X1998","Oceania",23.7044780946975
+"Australia","X1999","Oceania",22.5248307315714
+"Australia","X2000","Oceania",19.4584678198019
+"Australia","X2001","Oceania",17.0407898863993
+"Australia","X2002","Oceania",14.9539172267313
+"Australia","X2003","Oceania",13.150985945291
+"Australia","X2004","Oceania",11.8900167030708
+"Australia","X2005","Oceania",10.8932133184477
+"Australia","X2006","Oceania",9.96690172357924
+"Australia","X2007","Oceania",9.68267595882895
+"Australia","X2008","Oceania",11.7436487831102
+"Australia","X2009","Oceania",16.7465993226432
+"Australia","X2010","Oceania",20.4812912962656
+"Australia","X2011","Oceania",24.2005104541504
+"Australia","X2012","Oceania",27.7982376601335
+"Australia","X2013","Oceania",30.8291105169833
+"Australia","X2014","Oceania",34.3228304726287
+"Australia","X2015","Oceania",37.63774914205
+"Australia","X2016","Oceania",46.1
+"Azerbaijan","X1996","Europe",11.0874
+"Azerbaijan","X1997","Europe",8.60289
+"Azerbaijan","X1998","Europe",19.0201
+"Azerbaijan","X1999","Europe",25.482
+"Azerbaijan","X2000","Europe",25.8308
+"Azerbaijan","X2001","Europe",24.3873093507516
+"Azerbaijan","X2002","Europe",23.0178120828033
+"Azerbaijan","X2003","Europe",21.8282593490716
+"Azerbaijan","X2004","Europe",19.997102060913
+"Azerbaijan","X2005","Europe",13.4984879941989
+"Azerbaijan","X2006","Europe",10.260771635833
+"Azerbaijan","X2007","Europe",8.31125373800917
+"Azerbaijan","X2008","Europe",7.29167783773712
+"Azerbaijan","X2009","Europe",12.3947661590014
+"Azerbaijan","X2010","Europe",12.5171500153067
+"Azerbaijan","X2011","Europe",11.4256937956841
+"Azerbaijan","X2012","Europe",13.9477768538658
+"Azerbaijan","X2013","Europe",12.7496713280294
+"Azerbaijan","X2014","Europe",11.1746143978927
+"Azerbaijan","X2015","Europe",28.3157868731872
+"Azerbaijan","X2016","Europe",31.4
+"Bangladesh","X1996","Asia",46.1938668905041
+"Bangladesh","X1997","Asia",44.7645282491201
+"Bangladesh","X1998","Asia",45.3960895407003
+"Bangladesh","X1999","Asia",46.8971407379893
+"Bangladesh","X2000","Asia",50.759995271405
+"Bangladesh","X2001","Asia",52.2479112379102
+"Bangladesh","X2002","Asia",52.6301653065951
+"Bangladesh","X2003","Asia",42.0555687794602
+"Bangladesh","X2004","Asia",41.1501935693922
+"Bangladesh","X2005","Asia",39.8742699760498
+"Bangladesh","X2006","Asia",39.5580664755518
+"Bangladesh","X2007","Asia",39.1079144923656
+"Bangladesh","X2008","Asia",38.2494398987852
+"Bangladesh","X2009","Asia",37.1093635561748
+"Bangladesh","X2010","Asia",34.0899260205613
+"Bangladesh","X2011","Asia",32.8057419688481
+"Bangladesh","X2012","Asia",31.6655748489879
+"Bangladesh","X2013","Asia",32.5025042930785
+"Bangladesh","X2014","Asia",31.8307306342605
+"Bangladesh","X2015","Asia",31.6713936491498
+"Bangladesh","X2016","Asia",25.9
+"Belize","X1996","Central America/Caribbean",50.8198
+"Belize","X1997","Central America/Caribbean",52.3025
+"Belize","X1998","Central America/Caribbean",55.7751623136321
+"Belize","X1999","Central America/Caribbean",52.3162490045706
+"Belize","X2000","Central America/Caribbean",75.8120889832991
+"Belize","X2001","Central America/Caribbean",87.334773416766
+"Belize","X2002","Central America/Caribbean",95.0158922216531
+"Belize","X2003","Central America/Caribbean",109.344024790152
+"Belize","X2004","Central America/Caribbean",103.374165962289
+"Belize","X2005","Central America/Caribbean",102.436491883242
+"Belize","X2006","Central America/Caribbean",95.6520959987268
+"Belize","X2007","Central America/Caribbean",91.6493394431367
+"Belize","X2008","Central America/Caribbean",83.844442825601
+"Belize","X2009","Central America/Caribbean",91.9049198073301
+"Belize","X2010","Central America/Caribbean",88.2644150813399
+"Belize","X2011","Central America/Caribbean",83.5030314898468
+"Belize","X2012","Central America/Caribbean",78.9712710192969
+"Belize","X2013","Central America/Caribbean",79.3770435441631
+"Belize","X2014","Central America/Caribbean",77.5607355165184
+"Belize","X2015","Central America/Caribbean",82.0819772908933
+"Belize","X2016","Central America/Caribbean",86.3
+"Brazil","X1996","South America",44.1542
+"Brazil","X1997","South America",46.4822
+"Brazil","X1998","South America",59.8939
+"Brazil","X1999","South America",73.8969
+"Brazil","X2000","South America",68.4572
+"Brazil","X2001","South America",70.0537035431034
+"Brazil","X2002","South America",78.797735589593
+"Brazil","X2003","South America",73.8229993461769
+"Brazil","X2004","South America",70.0768827547608
+"Brazil","X2005","South America",68.585171049981
+"Brazil","X2006","South America",65.8451918549005
+"Brazil","X2007","South America",63.7432046704168
+"Brazil","X2008","South America",61.8679802006076
+"Brazil","X2009","South America",64.9439204131118
+"Brazil","X2010","South America",63.0449225180818
+"Brazil","X2011","South America",61.2416771180575
+"Brazil","X2012","South America",62.3101473379579
+"Brazil","X2013","South America",60.3644234423679
+"Brazil","X2014","South America",63.3140558174017
+"Brazil","X2015","South America",73.6970948210385
+"Brazil","X2016","South America",72.4
+"Canada","X1996","North America",100.572680079765
+"Canada","X1997","North America",95.5912255974652
+"Canada","X1998","North America",93.6139635867043
+"Canada","X1999","North America",89.2730990705417
+"Canada","X2000","North America",80.705927175747
+"Canada","X2001","North America",81.750452650361
+"Canada","X2002","North America",79.8879652142331
+"Canada","X2003","North America",76.1808824176307
+"Canada","X2004","North America",72.1352816828403
+"Canada","X2005","North America",70.8678304169007
+"Canada","X2006","North America",70.1258605541992
+"Canada","X2007","North America",66.8440807050635
+"Canada","X2008","North America",67.8343153310832
+"Canada","X2009","North America",79.2833194565401
+"Canada","X2010","North America",81.097266760121
+"Canada","X2011","North America",81.5134686802405
+"Canada","X2012","North America",84.8399282864679
+"Canada","X2013","North America",86.0798554904283
+"Canada","X2014","North America",86.2013144163609
+"Canada","X2015","North America",91.4993183037461
+"Canada","X2016","North America",98.8
+"Chile","X1996","South America",26.8037
+"Chile","X1997","South America",26.3245
+"Chile","X1998","South America",25.1403
+"Chile","X2000","South America",13.1908337634854
+"Chile","X2001","South America",14.3948304598851
+"Chile","X2002","South America",15.0865970780362
+"Chile","X2003","South America",12.6407207964036
+"Chile","X2004","South America",10.2943714326824
+"Chile","X2005","South America",6.99715090003837
+"Chile","X2006","South America",4.99388633635392
+"Chile","X2007","South America",3.88988749089032
+"Chile","X2008","South America",4.91893468842246
+"Chile","X2009","South America",5.83473058284382
+"Chile","X2010","South America",8.60053740155804
+"Chile","X2011","South America",11.1525253661564
+"Chile","X2012","South America",12.0294257401151
+"Chile","X2013","South America",12.7908689714649
+"Chile","X2014","South America",15.0592432497123
+"Chile","X2015","South America",17.5397046382069
+"Chile","X2016","South America",18.5
+"Colombia","X1997","South America",29.4073304524565
+"Colombia","X1998","South America",31.9587436811457
+"Colombia","X1999","South America",39.557872364326
+"Colombia","X2000","South America",44.2208940871643
+"Colombia","X2001","South America",40.829694200559
+"Colombia","X2002","South America",47.2382030992589
+"Colombia","X2003","South America",44.7485804189778
+"Colombia","X2004","South America",41.2140953098638
+"Colombia","X2005","South America",38.2835084344427
+"Colombia","X2006","South America",35.7542406926444
+"Colombia","X2007","South America",32.4688198940172
+"Colombia","X2008","South America",32.1441141660426
+"Colombia","X2009","South America",35.1712798918141
+"Colombia","X2010","South America",36.4391721785691
+"Colombia","X2011","South America",35.7331702561102
+"Colombia","X2012","South America",34.0825030491228
+"Colombia","X2013","South America",37.7825220133507
+"Colombia","X2014","South America",44.2024838113685
+"Colombia","X2015","South America",50.5692633530993
+"Colombia","X2016","South America",50.5
+"Croatia","X1996","Europe",33.0756
+"Croatia","X1997","Europe",34.1217
+"Croatia","X1998","Europe",35.199
+"Croatia","X1999","Europe",41.2622
+"Croatia","X2000","Europe",48.4131
+"Croatia","X2001","Europe",48.2109
+"Croatia","X2002","Europe",48.6558
+"Croatia","X2003","Europe",47.424
+"Croatia","X2004","Europe",42.5291
+"Croatia","X2005","Europe",40.6882017949518
+"Croatia","X2006","Europe",38.2773904094934
+"Croatia","X2007","Europe",37.060422649527
+"Croatia","X2008","Europe",38.8675381451601
+"Croatia","X2009","Europe",48.0234513656698
+"Croatia","X2010","Europe",56.9823847969992
+"Croatia","X2011","Europe",63.7120512828222
+"Croatia","X2012","Europe",70.677397293437
+"Croatia","X2013","Europe",82.1847351392552
+"Croatia","X2014","Europe",86.5278042081963
+"Croatia","X2015","Europe",86.6704346585035
+"Croatia","X2016","Europe",88.3
+"Denmark","X1996","Europe",69.2342130065976
+"Denmark","X1998","Europe",60.279497161436
+"Denmark","X1999","Europe",56.7640821218489
+"Denmark","X2000","Europe",52.3543025869859
+"Denmark","X2001","Europe",48.5083038892445
+"Denmark","X2002","Europe",49.0809574323251
+"Denmark","X2003","Europe",46.1500983816959
+"Denmark","X2004","Europe",44.1787988748504
+"Denmark","X2005","Europe",37.3991908162243
+"Denmark","X2006","Europe",31.5408916785621
+"Denmark","X2007","Europe",27.3393803355902
+"Denmark","X2008","Europe",33.3859050060471
+"Denmark","X2009","Europe",40.3676318314797
+"Denmark","X2010","Europe",42.8785954783815
+"Denmark","X2011","Europe",46.4088656946314
+"Denmark","X2012","Europe",45.189325973401
+"Denmark","X2013","Europe",44.6508808160045
+"Denmark","X2014","Europe",44.7651169782105
+"Denmark","X2015","Europe",45.5274569130736
+"Denmark","X2016","Europe",39.6
+"Ecuador","X1996","South America",60.3758
+"Ecuador","X1997","South America",56.6659
+"Ecuador","X1998","South America",61.427
+"Ecuador","X1999","South America",93.8145
+"Ecuador","X2000","South America",82.6136
+"Ecuador","X2001","South America",62.3015508871797
+"Ecuador","X2002","South America",52.520849748038
+"Ecuador","X2003","South America",44.8709406349283
+"Ecuador","X2004","South America",39.7562737261367
+"Ecuador","X2005","South America",35.0218031768552
+"Ecuador","X2006","South America",28.8286965072872
+"Ecuador","X2007","South America",27.1969754565662
+"Ecuador","X2008","South America",22.2368394923727
+"Ecuador","X2009","South America",17.7186640616205
+"Ecuador","X2010","South America",19.6761095098384
+"Ecuador","X2011","South America",19.4304204898304
+"Ecuador","X2012","South America",21.6095894679875
+"Ecuador","X2013","South America",25.9046646430216
+"Ecuador","X2014","South America",31.1836162360629
+"Ecuador","X2015","South America",33.8328367728135
+"Ecuador","X2016","South America",33
+"Equatorial Guinea","X1996","Africa",82.6710085888439
+"Equatorial Guinea","X1997","Africa",41.9417833580578
+"Equatorial Guinea","X1998","Africa",53.7022392282452
+"Equatorial Guinea","X1999","Africa",54.8307507125137
+"Equatorial Guinea","X2000","Africa",30.8795605062393
+"Equatorial Guinea","X2001","Africa",22.2513013576204
+"Equatorial Guinea","X2002","Africa",16.9295245395682
+"Equatorial Guinea","X2003","Africa",7.65681603332329
+"Equatorial Guinea","X2004","Africa",4.61426640241132
+"Equatorial Guinea","X2005","Africa",2.5474300500214
+"Equatorial Guinea","X2006","Africa",1.19743281526268
+"Equatorial Guinea","X2007","Africa",0.734705041508211
+"Equatorial Guinea","X2008","Africa",0.47440794553359
+"Equatorial Guinea","X2009","Africa",4.31980978384514
+"Equatorial Guinea","X2010","Africa",7.86855026492807
+"Equatorial Guinea","X2011","Africa",5.86253645327955
+"Equatorial Guinea","X2012","Africa",7.29304511707305
+"Equatorial Guinea","X2013","Africa",6.14311933657062
+"Equatorial Guinea","X2014","Africa",8.66857501400331
+"Equatorial Guinea","X2015","Africa",13.9795850994069
+"Equatorial Guinea","X2016","Africa",24.3
+"Eritrea","X1996","Africa",47.0581
+"Eritrea","X1997","Africa",52.9883
+"Eritrea","X1998","Africa",91.4464
+"Eritrea","X1999","Africa",149.451
+"Eritrea","X2000","Africa",185.707
+"Eritrea","X2001","Africa",167.135
+"Eritrea","X2002","Africa",190.459
+"Eritrea","X2004","Africa",86.7956888160664
+"Eritrea","X2005","Africa",158.913372783326
+"Eritrea","X2006","Africa",154.322208118677
+"Eritrea","X2007","Africa",156.655744687763
+"Eritrea","X2008","Africa",174.915002829699
+"Eritrea","X2009","Africa",144.602289049307
+"Eritrea","X2010","Africa",143.764135175042
+"Eritrea","X2011","Africa",133.013774104293
+"Eritrea","X2012","Africa",127.613711448423
+"Eritrea","X2013","Africa",128.383175434806
+"Eritrea","X2014","Africa",126.494672363153
+"Eritrea","X2015","Africa",127.126381922791
+"Eritrea","X2016","Africa",119.8
+"Estonia","X1996","Europe",7.35926269867316
+"Estonia","X1997","Europe",6.13847680763908
+"Estonia","X1998","Europe",5.45302318463924
+"Estonia","X1999","Europe",5.96383435905631
+"Estonia","X2000","Europe",5.11443350502338
+"Estonia","X2001","Europe",4.77899135904179
+"Estonia","X2002","Europe",5.69731216017122
+"Estonia","X2003","Europe",5.62299894524849
+"Estonia","X2004","Europe",5.06198354556614
+"Estonia","X2005","Europe",4.54880619542609
+"Estonia","X2006","Europe",4.40403021346656
+"Estonia","X2007","Europe",3.66358146368857
+"Estonia","X2008","Europe",4.48681878469679
+"Estonia","X2009","Europe",7.03809946770096
+"Estonia","X2010","Europe",6.55027318362389
+"Estonia","X2011","Europe",5.91325686553061
+"Estonia","X2012","Europe",9.51570361283453
+"Estonia","X2013","Europe",9.93486815923506
+"Estonia","X2014","Europe",10.3713551786046
+"Estonia","X2015","Europe",9.74101304551402
+"Estonia","X2016","Europe",9.7
+"Fiji","X1996","Oceania",52.8605997322624
+"Fiji","X1997","Oceania",58.6390704905561
+"Fiji","X1998","Oceania",39.680286781906
+"Fiji","X1999","Oceania",35.4260580869474
+"Fiji","X2000","Oceania",40.0002399020753
+"Fiji","X2001","Oceania",44.4516296152632
+"Fiji","X2002","Oceania",46.9975795216714
+"Fiji","X2003","Oceania",48.588434572335
+"Fiji","X2004","Oceania",48.2422457619051
+"Fiji","X2005","Oceania",47.6519027325302
+"Fiji","X2006","Oceania",57.9120607503302
+"Fiji","X2007","Oceania",49.8764123488803
+"Fiji","X2008","Oceania",51.416766104472
+"Fiji","X2009","Oceania",55.7970110970592
+"Fiji","X2010","Oceania",56.158289622203
+"Fiji","X2011","Oceania",52.6320455049125
+"Fiji","X2012","Oceania",51.6805719422439
+"Fiji","X2013","Oceania",49.5062575226164
+"Fiji","X2014","Oceania",47.7405324509815
+"Fiji","X2015","Oceania",48.0878643674376
+"Fiji","X2016","Oceania",50.2
+"Finland","X1996","Europe",55.3184401332549
+"Finland","X1997","Europe",52.247647600643
+"Finland","X1998","Europe",46.8624877473376
+"Finland","X1999","Europe",44.0085721264073
+"Finland","X2000","Europe",42.4861112130397
+"Finland","X2001","Europe",40.9465718617806
+"Finland","X2002","Europe",40.1695338157247
+"Finland","X2003","Europe",42.7382908114456
+"Finland","X2004","Europe",42.647829022508
+"Finland","X2005","Europe",39.9374646413646
+"Finland","X2006","Europe",38.0594853256399
+"Finland","X2007","Europe",33.9926740807483
+"Finland","X2008","Europe",32.6537424342569
+"Finland","X2009","Europe",41.6960216356625
+"Finland","X2010","Europe",47.1191293462445
+"Finland","X2011","Europe",48.50428000692
+"Finland","X2012","Europe",52.8881847746533
+"Finland","X2013","Europe",55.4282254211328
+"Finland","X2014","Europe",59.3008954864645
+"Finland","X2015","Europe",62.5135625830499
+"Finland","X2016","Europe",64.9
+"France","X1996","Europe",59.6846578497955
+"France","X1997","Europe",61.0968817585685
+"France","X1998","Europe",61.0402303249395
+"France","X1999","Europe",60.2204722620102
+"France","X2000","Europe",58.6546987382372
+"France","X2001","Europe",58.1563598767083
+"France","X2002","Europe",60.078067616366
+"France","X2003","Europe",64.2100647474897
+"France","X2004","Europe",65.7368654866843
+"France","X2005","Europe",67.2073806785412
+"France","X2006","Europe",64.448349860004
+"France","X2007","Europe",64.4045495896015
+"France","X2008","Europe",68.0612270461207
+"France","X2009","Europe",78.998791655772
+"France","X2010","Europe",81.6970489086461
+"France","X2011","Europe",85.2092280617924
+"France","X2012","Europe",89.5813896879098
+"France","X2013","Europe",92.3954358243163
+"France","X2014","Europe",95.3427253916421
+"France","X2015","Europe",96.1411494573291
+"France","X2016","Europe",96.5
+"Germany","X1996","Europe",57.5975435026372
+"Germany","X1997","Europe",58.7725523489012
+"Germany","X1998","Europe",59.3846092863549
+"Germany","X1999","Europe",59.9624191236295
+"Germany","X2000","Europe",58.7576542183248
+"Germany","X2001","Europe",57.5823565841686
+"Germany","X2002","Europe",59.2195682775914
+"Germany","X2003","Europe",62.9207506035819
+"Germany","X2004","Europe",64.6893799931296
+"Germany","X2005","Europe",66.9093730170458
+"Germany","X2006","Europe",66.3334795779797
+"Germany","X2007","Europe",63.5422941792037
+"Germany","X2008","Europe",64.9260658770992
+"Germany","X2009","Europe",72.4302518412538
+"Germany","X2010","Europe",81.0037751060053
+"Germany","X2011","Europe",78.3106928290272
+"Germany","X2012","Europe",79.5159992168976
+"Germany","X2013","Europe",77.0575039628623
+"Germany","X2014","Europe",74.4797242068039
+"Germany","X2015","Europe",70.9881562374292
+"Germany","X2016","Europe",69
+"Greece","X1996","Europe",101.335442607995
+"Greece","X1997","Europe",99.4516702698933
+"Greece","X1998","Europe",97.4246186024604
+"Greece","X1999","Europe",98.9064870804027
+"Greece","X2000","Europe",104.934618080384
+"Greece","X2001","Europe",107.081093867038
+"Greece","X2002","Europe",104.862933666134
+"Greece","X2003","Europe",101.456080042481
+"Greece","X2004","Europe",102.870181089843
+"Greece","X2005","Europe",107.392015739653
+"Greece","X2006","Europe",103.573821960691
+"Greece","X2007","Europe",103.102774017491
+"Greece","X2008","Europe",109.415678333815
+"Greece","X2009","Europe",126.744802849276
+"Greece","X2010","Europe",146.249850684198
+"Greece","X2011","Europe",172.096179762256
+"Greece","X2012","Europe",159.564653459133
+"Greece","X2013","Europe",177.677131088924
+"Greece","X2014","Europe",180.062964986286
+"Greece","X2015","Europe",176.938241025321
+"Greece","X2016","Europe",181.6
+"Honduras","X1996","Central America/Caribbean",88.0041
+"Honduras","X1997","Central America/Caribbean",75.8124
+"Honduras","X1998","Central America/Caribbean",65.9244
+"Honduras","X1999","Central America/Caribbean",66.4204
+"Honduras","X2000","Central America/Caribbean",63.7005
+"Honduras","X2001","Central America/Caribbean",61.4072
+"Honduras","X2002","Central America/Caribbean",63.5414
+"Honduras","X2003","Central America/Caribbean",66.2897
+"Honduras","X2004","Central America/Caribbean",63.498
+"Honduras","X2005","Central America/Caribbean",57.2245436605628
+"Honduras","X2006","Central America/Caribbean",40.3429404822788
+"Honduras","X2007","Central America/Caribbean",24.7211375371665
+"Honduras","X2008","Central America/Caribbean",22.9733250639088
+"Honduras","X2009","Central America/Caribbean",27.5099780294019
+"Honduras","X2010","Central America/Caribbean",30.6630927599855
+"Honduras","X2011","Central America/Caribbean",32.133975012881
+"Honduras","X2012","Central America/Caribbean",35.1810293138264
+"Honduras","X2013","Central America/Caribbean",45.7107472679462
+"Honduras","X2014","Central America/Caribbean",46.4627509100189
+"Honduras","X2015","Central America/Caribbean",46.8051871037873
+"Honduras","X2016","Central America/Caribbean",47.3
+"India","X1996","Asia",65.9766465514182
+"India","X1997","Asia",67.8180393047722
+"India","X1998","Asia",68.0898993997878
+"India","X1999","Asia",70.039242636401
+"India","X2000","Asia",73.6489950770931
+"India","X2001","Asia",78.7284696774848
+"India","X2002","Asia",82.849967883263
+"India","X2003","Asia",84.2430372808561
+"India","X2004","Asia",83.288599671402
+"India","X2005","Asia",80.8936774562291
+"India","X2006","Asia",77.1083133497216
+"India","X2007","Asia",74.026517958065
+"India","X2008","Asia",74.5361363598257
+"India","X2009","Asia",72.5266065943379
+"India","X2010","Asia",67.4576345771905
+"India","X2011","Asia",69.6428447225516
+"India","X2012","Asia",69.0725241601634
+"India","X2013","Asia",67.9597324080349
+"India","X2014","Asia",68.3262697216014
+"India","X2015","Asia",69.0699759503657
+"India","X2016","Asia",52.3
+"Indonesia","X1996","Southeast Asia",27.5393
+"Indonesia","X1997","Southeast Asia",26.4111
+"Indonesia","X1998","Southeast Asia",72.5266
+"Indonesia","X1999","Southeast Asia",95.8935
+"Indonesia","X2000","Southeast Asia",87.437298742237
+"Indonesia","X2001","Southeast Asia",73.7021149501112
+"Indonesia","X2002","Southeast Asia",62.3393810350656
+"Indonesia","X2003","Southeast Asia",55.6426916280537
+"Indonesia","X2004","Southeast Asia",51.328172495401
+"Indonesia","X2005","Southeast Asia",42.611727208196
+"Indonesia","X2006","Southeast Asia",35.8477340869901
+"Indonesia","X2007","Southeast Asia",32.3333333488476
+"Indonesia","X2008","Southeast Asia",30.2520374602258
+"Indonesia","X2009","Southeast Asia",26.4831257407831
+"Indonesia","X2010","Southeast Asia",24.524582718246
+"Indonesia","X2011","Southeast Asia",23.1060177539408
+"Indonesia","X2012","Southeast Asia",22.9603974927413
+"Indonesia","X2013","Southeast Asia",24.8467075781672
+"Indonesia","X2014","Southeast Asia",24.6954866425714
+"Indonesia","X2015","Southeast Asia",27.3042609243347
+"Indonesia","X2016","Southeast Asia",29.4
+"Iran","X1996","Middle East",28.4175
+"Iran","X1997","Middle East",22.9759
+"Iran","X1998","Middle East",25.3595
+"Iran","X1999","Middle East",21.3317
+"Iran","X2000","Middle East",12.1612574371366
+"Iran","X2001","Middle East",12.0051853727676
+"Iran","X2002","Middle East",21.7888940235158
+"Iran","X2003","Middle East",19.6090864791162
+"Iran","X2004","Middle East",16.6990484141315
+"Iran","X2005","Middle East",13.5620910726587
+"Iran","X2006","Middle East",12.4599298025151
+"Iran","X2007","Middle East",12.0273335019803
+"Iran","X2008","Middle East",9.28700222505843
+"Iran","X2009","Middle East",10.4249698298046
+"Iran","X2010","Middle East",12.1745471996337
+"Iran","X2011","Middle East",8.87472453585106
+"Iran","X2012","Middle East",17.3953861700604
+"Iran","X2013","Middle East",15.4021324772006
+"Iran","X2014","Middle East",15.6296150629138
+"Iran","X2015","Middle East",15.9035187157536
+"Iran","X2016","Middle East",11.9
+"Ireland","X1996","Europe",73.5194666515456
+"Ireland","X1997","Europe",64.3287251740942
+"Ireland","X1998","Europe",53.5845260530739
+"Ireland","X1999","Europe",48.4992258349923
+"Ireland","X2000","Europe",37.7760621623173
+"Ireland","X2001","Europe",35.4951893432036
+"Ireland","X2002","Europe",32.1244451829435
+"Ireland","X2003","Europe",30.938189189415
+"Ireland","X2004","Europe",29.6273459968396
+"Ireland","X2005","Europe",27.353564682007
+"Ireland","X2006","Europe",24.807884267188
+"Ireland","X2007","Europe",25.0083066569453
+"Ireland","X2008","Europe",44.3419677782019
+"Ireland","X2009","Europe",61.6762126997596
+"Ireland","X2010","Europe",86.2993944615974
+"Ireland","X2011","Europe",109.612873403825
+"Ireland","X2012","Europe",119.477223846968
+"Ireland","X2013","Europe",119.471280568673
+"Ireland","X2014","Europe",105.246945537378
+"Ireland","X2015","Europe",78.6763872329613
+"Ireland","X2016","Europe",77.9
+"Italy","X1996","Europe",117.711854738588
+"Italy","X1997","Europe",113.426445355868
+"Italy","X1998","Europe",110.80770514513
+"Italy","X1999","Europe",109.658759862173
+"Italy","X2000","Europe",105.109524508863
+"Italy","X2001","Europe",104.729800060051
+"Italy","X2002","Europe",101.922924310853
+"Italy","X2003","Europe",100.484939347528
+"Italy","X2004","Europe",100.089128208881
+"Italy","X2005","Europe",101.94049107017
+"Italy","X2006","Europe",102.557091691562
+"Italy","X2007","Europe",99.7758630973091
+"Italy","X2008","Europe",102.39029208064
+"Italy","X2009","Europe",112.51944524623
+"Italy","X2010","Europe",115.377924170232
+"Italy","X2011","Europe",116.498951730759
+"Italy","X2012","Europe",123.338680663945
+"Italy","X2013","Europe",129.004386473358
+"Italy","X2014","Europe",132.528477563198
+"Italy","X2015","Europe",132.712549469192
+"Italy","X2016","Europe",132.5
+"Japan","X1996","Asia",102.294120266878
+"Japan","X1997","Asia",109.104368267252
+"Japan","X1998","Asia",121.632211156615
+"Japan","X1999","Asia",135.609446644317
+"Japan","X2000","Asia",143.77848821245
+"Japan","X2001","Asia",153.634535360275
+"Japan","X2002","Asia",163.991910198799
+"Japan","X2003","Asia",169.571821213672
+"Japan","X2004","Asia",180.656881705787
+"Japan","X2005","Asia",186.436357791083
+"Japan","X2006","Asia",185.997272477881
+"Japan","X2007","Asia",183.01235615289
+"Japan","X2008","Asia",191.812143150576
+"Japan","X2009","Asia",210.246836069046
+"Japan","X2010","Asia",215.821204619488
+"Japan","X2011","Asia",231.629354760934
+"Japan","X2012","Asia",238.014556574821
+"Japan","X2013","Asia",244.477405513901
+"Japan","X2014","Asia",249.113739092857
+"Japan","X2015","Asia",247.975864153389
+"Japan","X2016","Asia",234.7
+"Kazakhstan","X1996","Asia",12.7035
+"Kazakhstan","X1997","Asia",17.9699
+"Kazakhstan","X1998","Asia",20.4608
+"Kazakhstan","X1999","Asia",27.171
+"Kazakhstan","X2000","Asia",25.3097
+"Kazakhstan","X2001","Asia",18.7304
+"Kazakhstan","X2002","Asia",17.5918684050564
+"Kazakhstan","X2003","Asia",14.9624930098823
+"Kazakhstan","X2004","Asia",11.3915680770711
+"Kazakhstan","X2005","Asia",8.0994854894873
+"Kazakhstan","X2006","Asia",6.66733063322058
+"Kazakhstan","X2007","Asia",5.87362469157093
+"Kazakhstan","X2008","Asia",6.76587807484648
+"Kazakhstan","X2009","Asia",10.2270294086609
+"Kazakhstan","X2010","Asia",10.6827352474496
+"Kazakhstan","X2011","Asia",9.76786994839917
+"Kazakhstan","X2012","Asia",11.6813783885342
+"Kazakhstan","X2013","Asia",12.2333554478437
+"Kazakhstan","X2014","Asia",14.112548073917
+"Kazakhstan","X2015","Asia",21.8852373732816
+"Kazakhstan","X2016","Asia",24.1
+"Kenya","X1996","Africa",60.7854
+"Kenya","X1997","Africa",50.5542
+"Kenya","X1998","Africa",54.4291502724166
+"Kenya","X1999","Africa",53.6698678056913
+"Kenya","X2000","Africa",52.230343499715
+"Kenya","X2001","Africa",56.2184000240009
+"Kenya","X2002","Africa",61.8442204683205
+"Kenya","X2003","Africa",60.1327398006624
+"Kenya","X2004","Africa",53.795142273036
+"Kenya","X2005","Africa",48.3430181104348
+"Kenya","X2006","Africa",43.9750544882108
+"Kenya","X2007","Africa",38.3723771219044
+"Kenya","X2008","Africa",41.4690127040939
+"Kenya","X2009","Africa",41.0947786659835
+"Kenya","X2010","Africa",44.4031655799317
+"Kenya","X2011","Africa",43.0494327722116
+"Kenya","X2012","Africa",41.6944919489526
+"Kenya","X2013","Africa",41.4932918887668
+"Kenya","X2014","Africa",46.6663344810707
+"Kenya","X2015","Africa",51.3272241627305
+"Kenya","X2016","Africa",50.4
+"Kuwait","X1996","Middle East",59.1075055765414
+"Kuwait","X1997","Middle East",59.1983596379413
+"Kuwait","X1998","Middle East",59.4975294315794
+"Kuwait","X1999","Middle East",50.8229749261546
+"Kuwait","X2000","Middle East",35.4293181362542
+"Kuwait","X2001","Middle East",36.4299367397997
+"Kuwait","X2002","Middle East",32.3329224950029
+"Kuwait","X2003","Middle East",24.6148610474889
+"Kuwait","X2004","Middle East",18.6163348286154
+"Kuwait","X2005","Middle East",14.1365237336624
+"Kuwait","X2006","Middle East",10.5701988480455
+"Kuwait","X2007","Middle East",11.8323932923917
+"Kuwait","X2008","Middle East",9.57045011325108
+"Kuwait","X2009","Middle East",11.0457758138719
+"Kuwait","X2010","Middle East",11.3398907980693
+"Kuwait","X2011","Middle East",8.54741474659798
+"Kuwait","X2012","Middle East",6.78872113601878
+"Kuwait","X2013","Middle East",6.49826563612273
+"Kuwait","X2014","Middle East",7.48568898131995
+"Kuwait","X2015","Middle East",11.1739290081013
+"Kuwait","X2016","Middle East",23.1
+"Lithuania","X1996","Europe",11.7851
+"Lithuania","X1997","Europe",15.4641
+"Lithuania","X1998","Europe",15.3997
+"Lithuania","X1999","Europe",23.4065
+"Lithuania","X2000","Europe",23.4882902331416
+"Lithuania","X2001","Europe",22.8947300580768
+"Lithuania","X2002","Europe",22.1377241729006
+"Lithuania","X2003","Europe",20.9183040039507
+"Lithuania","X2004","Europe",19.3028676731035
+"Lithuania","X2005","Europe",18.3076314488893
+"Lithuania","X2006","Europe",17.967867145203
+"Lithuania","X2007","Europe",16.6527714468382
+"Lithuania","X2008","Europe",15.3903951582433
+"Lithuania","X2009","Europe",29.0139359550617
+"Lithuania","X2010","Europe",36.2798940481578
+"Lithuania","X2011","Europe",37.2772934895526
+"Lithuania","X2012","Europe",39.7933326593616
+"Lithuania","X2013","Europe",38.7561090925836
+"Lithuania","X2014","Europe",40.6820127623581
+"Lithuania","X2015","Europe",42.7813571225909
+"Lithuania","X2016","Europe",41.8
+"Malawi","X1996","Africa",98.7565
+"Malawi","X1997","Africa",83.4535
+"Malawi","X1998","Africa",141.042
+"Malawi","X1999","Africa",150.745
+"Malawi","X2000","Africa",148.953
+"Malawi","X2001","Africa",151.912
+"Malawi","X2003","Africa",146.201419710227
+"Malawi","X2004","Africa",125.532081751621
+"Malawi","X2005","Africa",36.7046590446357
+"Malawi","X2006","Africa",42.0941086491802
+"Malawi","X2007","Africa",44.4562844050827
+"Malawi","X2008","Africa",36.7503464792142
+"Malawi","X2009","Africa",39.5349800191606
+"Malawi","X2010","Africa",57.6573106748257
+"Malawi","X2011","Africa",81.2158761183431
+"Malawi","X2012","Africa",82.0530786522241
+"Malawi","X2013","Africa",85.6587175081925
+"Malawi","X2014","Africa",82.5166959728628
+"Malawi","X2015","Africa",72.9749784388801
+"Malawi","X2016","Africa",61.2
+"Malaysia","X1996","Southeast Asia",33.2348537118866
+"Malaysia","X1997","Southeast Asia",30.0411413842671
+"Malaysia","X1998","Southeast Asia",34.1142588495212
+"Malaysia","X1999","Southeast Asia",34.8506427562975
+"Malaysia","X2000","Southeast Asia",32.8807961727689
+"Malaysia","X2001","Southeast Asia",38.5051779191658
+"Malaysia","X2002","Southeast Asia",40.0936037441498
+"Malaysia","X2003","Southeast Asia",41.9812054987036
+"Malaysia","X2004","Southeast Asia",42.5561463921536
+"Malaysia","X2005","Southeast Asia",41.3571549443796
+"Malaysia","X2006","Southeast Asia",40.2251015666576
+"Malaysia","X2007","Southeast Asia",39.907414414362
+"Malaysia","X2008","Southeast Asia",39.9199807843216
+"Malaysia","X2009","Southeast Asia",51.1241814618165
+"Malaysia","X2010","Southeast Asia",51.9397136718061
+"Malaysia","X2011","Southeast Asia",52.6355649077087
+"Malaysia","X2012","Southeast Asia",54.5515835762331
+"Malaysia","X2013","Southeast Asia",55.9042926605907
+"Malaysia","X2014","Southeast Asia",55.5798988648677
+"Malaysia","X2015","Southeast Asia",57.3930023095669
+"Malaysia","X2016","Southeast Asia",55.1
+"Malta","X1996","Europe",51.2517289477163
+"Malta","X1997","Europe",60.5465227523822
+"Malta","X1998","Europe",66.091146679634
+"Malta","X1999","Europe",69.4834232621745
+"Malta","X2000","Europe",64.1543804823713
+"Malta","X2001","Europe",70.3746771268459
+"Malta","X2002","Europe",64.8434353944805
+"Malta","X2003","Europe",68.7173730639749
+"Malta","X2004","Europe",71.1416754079915
+"Malta","X2005","Europe",70.1081908373657
+"Malta","X2006","Europe",64.6158113514625
+"Malta","X2007","Europe",62.3900995643236
+"Malta","X2008","Europe",62.7460053776696
+"Malta","X2009","Europe",67.7985926159662
+"Malta","X2010","Europe",67.6308093922773
+"Malta","X2011","Europe",69.9556925946661
+"Malta","X2012","Europe",67.5914687012311
+"Malta","X2013","Europe",68.3740807328275
+"Malta","X2014","Europe",66.9958113871255
+"Malta","X2015","Europe",63.9630802183481
+"Malta","X2016","Europe",62.6
+"Mexico","X1996","North America",46.5869059116188
+"Mexico","X1997","North America",42.611256524622
+"Mexico","X1998","North America",44.0939094220829
+"Mexico","X1999","North America",46.3182335443887
+"Mexico","X2000","North America",41.8499505067964
+"Mexico","X2001","North America",41.1107762442298
+"Mexico","X2002","North America",43.4660996863675
+"Mexico","X2003","North America",44.7471639177726
+"Mexico","X2004","North America",40.8445934155735
+"Mexico","X2005","North America",39.0188204030331
+"Mexico","X2006","North America",37.7524853084487
+"Mexico","X2007","North America",37.5339375331576
+"Mexico","X2008","North America",42.8273315710826
+"Mexico","X2009","North America",43.9241866618858
+"Mexico","X2010","North America",42.2294449566621
+"Mexico","X2011","North America",43.1994354732541
+"Mexico","X2012","North America",43.1709760843807
+"Mexico","X2013","North America",46.3520215538119
+"Mexico","X2014","North America",49.498875227633
+"Mexico","X2015","North America",54.0277924040666
+"Mexico","X2016","North America",49.7
+"Mozambique","X1999","Africa",131.176930339287
+"Mozambique","X2000","Africa",118.178986893205
+"Mozambique","X2001","Africa",123.395194918764
+"Mozambique","X2002","Africa",75.7870621437352
+"Mozambique","X2003","Africa",74.9344434446221
+"Mozambique","X2004","Africa",59.7059341859332
+"Mozambique","X2005","Africa",70.1579488984003
+"Mozambique","X2006","Africa",46.6105126537713
+"Mozambique","X2007","Africa",35.9901368411067
+"Mozambique","X2008","Africa",36.2832540601234
+"Mozambique","X2009","Africa",41.8868094360812
+"Mozambique","X2010","Africa",43.3258753688067
+"Mozambique","X2011","Africa",38.0258296322051
+"Mozambique","X2012","Africa",40.0976425404982
+"Mozambique","X2013","Africa",53.1250612439622
+"Mozambique","X2014","Africa",62.3717612803669
+"Mozambique","X2015","Africa",86.0244087822478
+"Mozambique","X2016","Africa",100.3
+"New Zealand","X1996","Oceania",44.7782129716549
+"New Zealand","X1997","Oceania",36.9933874268555
+"New Zealand","X1998","Oceania",37.6140323012934
+"New Zealand","X1999","Oceania",35.8288195969355
+"New Zealand","X2000","Oceania",26.7200705138926
+"New Zealand","X2001","Oceania",25.0677849506135
+"New Zealand","X2002","Oceania",23.4977282804844
+"New Zealand","X2003","Oceania",21.9798198392221
+"New Zealand","X2004","Oceania",20.0302422252751
+"New Zealand","X2005","Oceania",18.5011715610593
+"New Zealand","X2006","Oceania",16.3689622076827
+"New Zealand","X2007","Oceania",14.5054237749943
+"New Zealand","X2008","Oceania",16.8872928513321
+"New Zealand","X2009","Oceania",21.6514700288169
+"New Zealand","X2010","Oceania",26.8655441481496
+"New Zealand","X2011","Oceania",31.5372931629556
+"New Zealand","X2012","Oceania",31.9482411190361
+"New Zealand","X2013","Oceania",30.8020320199761
+"New Zealand","X2014","Oceania",30.3187075900444
+"New Zealand","X2015","Oceania",29.9470653539064
+"New Zealand","X2016","Oceania",34
+"Nigeria","X1996","Africa",68.3617
+"Nigeria","X1997","Africa",79.5138
+"Nigeria","X1998","Africa",89.7795
+"Nigeria","X1999","Africa",83.5559
+"Nigeria","X2000","Africa",82.3007
+"Nigeria","X2001","Africa",83.4723
+"Nigeria","X2002","Africa",43.2656911398078
+"Nigeria","X2003","Africa",41.9741956042488
+"Nigeria","X2004","Africa",35.4880005499772
+"Nigeria","X2005","Africa",18.9269062392149
+"Nigeria","X2006","Africa",7.70771518998752
+"Nigeria","X2007","Africa",8.11633081955416
+"Nigeria","X2008","Africa",7.27610807306513
+"Nigeria","X2009","Africa",8.61723175535839
+"Nigeria","X2010","Africa",9.59715437489022
+"Nigeria","X2011","Africa",10.1936925921514
+"Nigeria","X2012","Africa",10.4208246122901
+"Nigeria","X2013","Africa",10.5008843021498
+"Nigeria","X2014","Africa",10.5789527610903
+"Nigeria","X2015","Africa",11.5032433861457
+"Nigeria","X2016","Africa",13.2
+"Norway","X1996","Europe",34.1201771653543
+"Norway","X1997","Europe",30.1950729927007
+"Norway","X1998","Europe",28.7069431920649
+"Norway","X1999","Europe",24.3204166541571
+"Norway","X2000","Europe",28.099206438683
+"Norway","X2001","Europe",26.7010740867387
+"Norway","X2002","Europe",33.4931652160871
+"Norway","X2003","Europe",42.6693907742158
+"Norway","X2004","Europe",43.4725735010643
+"Norway","X2005","Europe",42.0081339768249
+"Norway","X2006","Europe",52.3317257343435
+"Norway","X2007","Europe",49.2010378486217
+"Norway","X2008","Europe",47.2644255570021
+"Norway","X2009","Europe",41.9716359810972
+"Norway","X2010","Europe",42.3657806221256
+"Norway","X2011","Europe",28.8822277292796
+"Norway","X2012","Europe",30.0222007959641
+"Norway","X2013","Europe",30.3047994649533
+"Norway","X2014","Europe",27.9408985879984
+"Norway","X2015","Europe",27.9408985879984
+"Norway","X2016","Europe",32.2
+"Oman","X1996","Middle East",28.6393004555578
+"Oman","X1997","Middle East",28.2115921948054
+"Oman","X1998","Middle East",40.1209105523311
+"Oman","X1999","Middle East",34.9303004383561
+"Oman","X2000","Middle East",26.1007253900158
+"Oman","X2001","Middle East",25.1395319230588
+"Oman","X2002","Middle East",18.6945531805596
+"Oman","X2003","Middle East",17.1734560043766
+"Oman","X2004","Middle East",15.9534615168984
+"Oman","X2005","Middle East",9.87106214507009
+"Oman","X2006","Middle East",8.90981847462802
+"Oman","X2007","Middle East",7.10497828263258
+"Oman","X2008","Middle East",4.8421697575054
+"Oman","X2009","Middle East",6.8898943278217
+"Oman","X2010","Middle East",5.85281485152035
+"Oman","X2011","Middle East",5.18081801871184
+"Oman","X2012","Middle East",4.93250364563106
+"Oman","X2013","Middle East",5.06806834425687
+"Oman","X2014","Middle East",4.88199684612016
+"Oman","X2015","Middle East",14.8812326058877
+"Oman","X2016","Middle East",18.5
+"Panama","X1996","Central America/Caribbean",68.4899810293646
+"Panama","X1997","Central America/Caribbean",63.39185414368
+"Panama","X1998","Central America/Caribbean",61.2269701627639
+"Panama","X1999","Central America/Caribbean",58.0794804992925
+"Panama","X2000","Central America/Caribbean",56.4336312454245
+"Panama","X2001","Central America/Caribbean",60.8945856096333
+"Panama","X2002","Central America/Caribbean",60.0094911491004
+"Panama","X2003","Central America/Caribbean",59.4768562308203
+"Panama","X2004","Central America/Caribbean",61.9038793205485
+"Panama","X2005","Central America/Caribbean",62.4824921990938
+"Panama","X2006","Central America/Caribbean",57.6487839501545
+"Panama","X2007","Central America/Caribbean",49.9607396038827
+"Panama","X2008","Central America/Caribbean",42.5630255013299
+"Panama","X2009","Central America/Caribbean",41.2866272401728
+"Panama","X2010","Central America/Caribbean",40.2119366703745
+"Panama","X2011","Central America/Caribbean",37.2783671665485
+"Panama","X2012","Central America/Caribbean",35.7033563584802
+"Panama","X2013","Central America/Caribbean",34.9642079132873
+"Panama","X2014","Central America/Caribbean",37.0805837895041
+"Panama","X2015","Central America/Caribbean",38.7707651643787
+"Panama","X2016","Central America/Caribbean",39.3
+"Papua New Guinea","X1996","Oceania",54.8731
+"Papua New Guinea","X1997","Oceania",55.2006
+"Papua New Guinea","X1998","Oceania",65.5887
+"Papua New Guinea","X1999","Oceania",57.9403
+"Papua New Guinea","X2000","Oceania",53.9124
+"Papua New Guinea","X2001","Oceania",56.8062
+"Papua New Guinea","X2002","Oceania",62.5796
+"Papua New Guinea","X2003","Oceania",55.2705
+"Papua New Guinea","X2004","Oceania",50.0209
+"Papua New Guinea","X2005","Oceania",39.6484
+"Papua New Guinea","X2006","Oceania",35.9893
+"Papua New Guinea","X2007","Oceania",32.8855
+"Papua New Guinea","X2008","Oceania",21.7830457089081
+"Papua New Guinea","X2009","Oceania",21.8460113932773
+"Papua New Guinea","X2010","Oceania",17.3418363340814
+"Papua New Guinea","X2011","Oceania",16.3071204304883
+"Papua New Guinea","X2012","Oceania",19.1483696265373
+"Papua New Guinea","X2013","Oceania",25.0271813565393
+"Papua New Guinea","X2014","Oceania",28.1100566101805
+"Papua New Guinea","X2015","Oceania",30.5515506634159
+"Papua New Guinea","X2016","Oceania",39.4
+"Philippines","X1996","Southeast Asia",54.7266853890561
+"Philippines","X1997","Southeast Asia",58.6817960523208
+"Philippines","X1998","Southeast Asia",51.058308458318
+"Philippines","X1999","Southeast Asia",53.5831329293505
+"Philippines","X2000","Southeast Asia",58.7741757784485
+"Philippines","X2001","Southeast Asia",58.8308323568113
+"Philippines","X2002","Southeast Asia",63.2557235607911
+"Philippines","X2003","Southeast Asia",68.0356918195088
+"Philippines","X2004","Southeast Asia",65.804044811809
+"Philippines","X2005","Southeast Asia",59.1688432917969
+"Philippines","X2006","Southeast Asia",51.5819967511577
+"Philippines","X2007","Southeast Asia",44.6396568205793
+"Philippines","X2008","Southeast Asia",44.1672575948027
+"Philippines","X2009","Southeast Asia",44.3430743330795
+"Philippines","X2010","Southeast Asia",43.4617662794571
+"Philippines","X2011","Southeast Asia",41.4117190446888
+"Philippines","X2012","Southeast Asia",40.6094979247399
+"Philippines","X2013","Southeast Asia",39.2584352162152
+"Philippines","X2014","Southeast Asia",36.3976417649594
+"Philippines","X2015","Southeast Asia",34.7946235279849
+"Philippines","X2016","Southeast Asia",42.9
+"Russia","X1996","Europe",51.9
+"Russia","X1997","Europe",54.7
+"Russia","X1998","Europe",73.1
+"Russia","X1999","Europe",88.7
+"Russia","X2000","Europe",55.7122837414325
+"Russia","X2001","Europe",44.3139425978729
+"Russia","X2002","Europe",37.4721450545673
+"Russia","X2003","Europe",28.2549958426697
+"Russia","X2004","Europe",20.7696783838296
+"Russia","X2005","Europe",14.8091201957035
+"Russia","X2006","Europe",9.77649767991868
+"Russia","X2007","Europe",8.01024550009798
+"Russia","X2008","Europe",7.42542891479877
+"Russia","X2009","Europe",9.89047094854029
+"Russia","X2010","Europe",10.5597839084988
+"Russia","X2011","Europe",10.9132451451554
+"Russia","X2012","Europe",11.7610407773257
+"Russia","X2013","Europe",13.0755160405933
+"Russia","X2014","Europe",15.8939509988441
+"Russia","X2015","Europe",16.423031942607
+"Russia","X2016","Europe",13.7
+"Saudi Arabia","X1996","Middle East",75.6444372219627
+"Saudi Arabia","X1997","Middle East",77.1549533744833
+"Saudi Arabia","X1998","Middle East",102.210312451985
+"Saudi Arabia","X1999","Middle East",102.991787626975
+"Saudi Arabia","X2000","Middle East",86.7017724012641
+"Saudi Arabia","X2001","Middle East",93.1477989006172
+"Saudi Arabia","X2002","Middle East",96.351696772755
+"Saudi Arabia","X2003","Middle East",81.5642311053814
+"Saudi Arabia","X2004","Middle East",62.9282022815161
+"Saudi Arabia","X2005","Middle East",37.3424359335585
+"Saudi Arabia","X2006","Middle East",25.8308411362682
+"Saudi Arabia","X2007","Middle East",17.1154305724822
+"Saudi Arabia","X2008","Middle East",12.0559945858256
+"Saudi Arabia","X2009","Middle East",13.9890376456109
+"Saudi Arabia","X2010","Middle East",8.4483105769161
+"Saudi Arabia","X2011","Middle East",5.39700796657996
+"Saudi Arabia","X2012","Middle East",3.58968118901319
+"Saudi Arabia","X2013","Middle East",2.15449914094678
+"Saudi Arabia","X2014","Middle East",1.56710495184185
+"Saudi Arabia","X2015","Middle East",5.00720987015802
+"Saudi Arabia","X2016","Middle East",31
+"Seychelles","X1996","Africa",104.885
+"Seychelles","X1997","Africa",101.239
+"Seychelles","X1998","Africa",116.576
+"Seychelles","X1999","Africa",128.985
+"Seychelles","X2000","Africa",172.56104614309
+"Seychelles","X2001","Africa",201.269932523454
+"Seychelles","X2002","Africa",202.05171030371
+"Seychelles","X2003","Africa",175.715311372652
+"Seychelles","X2004","Africa",163.225828874269
+"Seychelles","X2005","Africa",144.064280078042
+"Seychelles","X2006","Africa",132.509258508308
+"Seychelles","X2007","Africa",130.748761259303
+"Seychelles","X2008","Africa",130.009426853477
+"Seychelles","X2009","Africa",121.292381693485
+"Seychelles","X2010","Africa",81.8939926970908
+"Seychelles","X2011","Africa",77.288691091552
+"Seychelles","X2012","Africa",82.5381637216768
+"Seychelles","X2013","Africa",68.7957733845992
+"Seychelles","X2014","Africa",68.6294735394814
+"Seychelles","X2015","Africa",68.9995686021411
+"Seychelles","X2016","Africa",59.1
+"Sierra Leone","X1996","Africa",161.211
+"Sierra Leone","X1997","Africa",178.093
+"Sierra Leone","X1998","Africa",211.739
+"Sierra Leone","X1999","Africa",208.681
+"Sierra Leone","X2000","Africa",211.177
+"Sierra Leone","X2001","Africa",186.069
+"Sierra Leone","X2002","Africa",174.617
+"Sierra Leone","X2003","Africa",177.734
+"Sierra Leone","X2004","Africa",160.493
+"Sierra Leone","X2005","Africa",133.859
+"Sierra Leone","X2006","Africa",103.110381167864
+"Sierra Leone","X2007","Africa",42.1794788950384
+"Sierra Leone","X2008","Africa",42.3741875177525
+"Sierra Leone","X2009","Africa",48.0503822961776
+"Sierra Leone","X2010","Africa",46.8490968769788
+"Sierra Leone","X2011","Africa",44.7511259030871
+"Sierra Leone","X2012","Africa",36.7654907013143
+"Sierra Leone","X2013","Africa",30.5452500696728
+"Sierra Leone","X2014","Africa",34.9638601473681
+"Sierra Leone","X2015","Africa",43.7578907866818
+"Sierra Leone","X2016","Africa",43.3
+"South Africa","X1996","Africa",44.3337
+"South Africa","X1997","Africa",45.7577
+"South Africa","X1998","Africa",45.8013
+"South Africa","X1999","Africa",45.9312
+"South Africa","X2000","Africa",43.3167994725359
+"South Africa","X2001","Africa",42.4018108405726
+"South Africa","X2002","Africa",35.5473130337272
+"South Africa","X2003","Africa",35.4275188834229
+"South Africa","X2004","Africa",34.3926648846727
+"South Africa","X2005","Africa",33.212302669385
+"South Africa","X2006","Africa",31.35511579863
+"South Africa","X2007","Africa",27.0606996343213
+"South Africa","X2008","Africa",26.5056691189724
+"South Africa","X2009","Africa",30.0782756311917
+"South Africa","X2010","Africa",34.6751901741189
+"South Africa","X2011","Africa",38.2270950527159
+"South Africa","X2012","Africa",40.9985340983476
+"South Africa","X2013","Africa",43.9855931823734
+"South Africa","X2014","Africa",46.8954182794083
+"South Africa","X2015","Africa",49.7781289179369
+"South Africa","X2016","Africa",43.3
+"Sri Lanka","X1996","Asia",90.177147339987
+"Sri Lanka","X1997","Asia",82.9836055969271
+"Sri Lanka","X1998","Asia",87.8294916851439
+"Sri Lanka","X1999","Asia",91.9137036882838
+"Sri Lanka","X2000","Asia",93.6964835105133
+"Sri Lanka","X2001","Asia",99.802839119721
+"Sri Lanka","X2002","Asia",102.096896341586
+"Sri Lanka","X2003","Asia",102.270712023476
+"Sri Lanka","X2004","Asia",102.328488871225
+"Sri Lanka","X2005","Asia",90.6054023553663
+"Sri Lanka","X2006","Asia",87.8846625015313
+"Sri Lanka","X2007","Asia",84.9972112684872
+"Sri Lanka","X2008","Asia",81.3697518887102
+"Sri Lanka","X2009","Asia",86.0635332750259
+"Sri Lanka","X2010","Asia",81.9086333872462
+"Sri Lanka","X2011","Asia",78.452077716594
+"Sri Lanka","X2012","Asia",79.1722800945932
+"Sri Lanka","X2013","Asia",78.3153202070962
+"Sri Lanka","X2014","Asia",75.5354677667818
+"Sri Lanka","X2015","Asia",76.0355873873527
+"Sri Lanka","X2016","Asia",77.1
+"Sweden","X1996","Europe",84.36039408495
+"Sweden","X1997","Europe",82.9774421776028
+"Sweden","X1998","Europe",81.9877690338485
+"Sweden","X1999","Europe",73.2048553582293
+"Sweden","X2000","Europe",64.2890343495125
+"Sweden","X2001","Europe",62.6742076264926
+"Sweden","X2002","Europe",60.2324001587802
+"Sweden","X2004","Europe",47.682430132098
+"Sweden","X2005","Europe",47.9702148209092
+"Sweden","X2006","Europe",42.9802254281189
+"Sweden","X2007","Europe",38.1089718606283
+"Sweden","X2008","Europe",36.6838873196031
+"Sweden","X2009","Europe",40.1952982339413
+"Sweden","X2010","Europe",37.5875640697115
+"Sweden","X2011","Europe",36.9405594357783
+"Sweden","X2012","Europe",37.1737950499349
+"Sweden","X2013","Europe",39.7713844021169
+"Sweden","X2014","Europe",44.7814671995986
+"Sweden","X2015","Europe",43.3966596958351
+"Sweden","X2016","Europe",41.4
+"Tanzania","X1996","Africa",99.0207
+"Tanzania","X1997","Africa",78.5338
+"Tanzania","X1998","Africa",74.626
+"Tanzania","X1999","Africa",75.0096
+"Tanzania","X2000","Africa",65.9123
+"Tanzania","X2001","Africa",57.9647
+"Tanzania","X2002","Africa",58.7598
+"Tanzania","X2004","Africa",56.0229400090976
+"Tanzania","X2005","Africa",55.9725784625081
+"Tanzania","X2006","Africa",42.64753232835
+"Tanzania","X2007","Africa",28.4473852621805
+"Tanzania","X2008","Africa",21.5150980529754
+"Tanzania","X2009","Africa",24.3591007986542
+"Tanzania","X2010","Africa",27.3426237421706
+"Tanzania","X2011","Africa",27.842426234918
+"Tanzania","X2012","Africa",29.1508510857991
+"Tanzania","X2013","Africa",30.9009731489153
+"Tanzania","X2014","Africa",33.7950060624078
+"Tanzania","X2015","Africa",36.5163233290373
+"Tanzania","X2016","Africa",36.6
+"Thailand","X1996","Southeast Asia",14.7723291808636
+"Thailand","X1997","Southeast Asia",40.3660149812146
+"Thailand","X1998","Southeast Asia",49.5120873735712
+"Thailand","X1999","Southeast Asia",54.4290945319251
+"Thailand","X2000","Southeast Asia",55.3131505774462
+"Thailand","X2001","Southeast Asia",54.9003555276666
+"Thailand","X2002","Southeast Asia",51.0090755337739
+"Thailand","X2003","Southeast Asia",46.381216538326
+"Thailand","X2004","Southeast Asia",44.95876217651
+"Thailand","X2005","Southeast Asia",43.0433717180151
+"Thailand","X2006","Southeast Asia",38.4865271815114
+"Thailand","X2007","Southeast Asia",35.0739588248833
+"Thailand","X2008","Southeast Asia",35.1113142648985
+"Thailand","X2009","Southeast Asia",41.453650021504
+"Thailand","X2010","Southeast Asia",39.164851854245
+"Thailand","X2011","Southeast Asia",39.3637494733615
+"Thailand","X2012","Southeast Asia",39.9807914405557
+"Thailand","X2013","Southeast Asia",42.0924767030929
+"Thailand","X2014","Southeast Asia",43.3346995644458
+"Thailand","X2015","Southeast Asia",42.720809589078
+"Thailand","X2016","Southeast Asia",50.4
+"Tunisia","X1996","Africa",55.19896
+"Tunisia","X1997","Africa",62.50191
+"Tunisia","X1998","Africa",59.63186
+"Tunisia","X1999","Africa",61.30566
+"Tunisia","X2000","Africa",60.67416
+"Tunisia","X2001","Africa",62.47387
+"Tunisia","X2002","Africa",61.53846
+"Tunisia","X2003","Africa",59.78328
+"Tunisia","X2004","Africa",54.1011136461351
+"Tunisia","X2005","Africa",52.4219651945527
+"Tunisia","X2006","Africa",47.9520065773346
+"Tunisia","X2007","Africa",44.8001873822951
+"Tunisia","X2008","Africa",42.0210322977767
+"Tunisia","X2009","Africa",40.5427853212205
+"Tunisia","X2010","Africa",39.2170654247489
+"Tunisia","X2011","Africa",43.0679720021041
+"Tunisia","X2012","Africa",47.6763556373107
+"Tunisia","X2013","Africa",46.8403964518702
+"Tunisia","X2014","Africa",51.5605665128991
+"Tunisia","X2015","Africa",55.7068037039421
+"Tunisia","X2016","Africa",57.3
+"Turkey","X1996","Europe",35.4572
+"Turkey","X1997","Europe",32.4722
+"Turkey","X1998","Europe",36.5254
+"Turkey","X1999","Europe",52.0898
+"Turkey","X2000","Europe",51.3102405115325
+"Turkey","X2001","Europe",77.9359729350624
+"Turkey","X2002","Europe",73.9996833405349
+"Turkey","X2003","Europe",67.6979801508043
+"Turkey","X2004","Europe",59.6115197913851
+"Turkey","X2005","Europe",52.7104766008632
+"Turkey","X2006","Europe",46.5241278069182
+"Turkey","X2007","Europe",39.9073305980633
+"Turkey","X2008","Europe",39.9836571407901
+"Turkey","X2009","Europe",46.0726336477889
+"Turkey","X2010","Europe",42.3354099957516
+"Turkey","X2011","Europe",39.1417112794053
+"Turkey","X2012","Europe",36.1582344623456
+"Turkey","X2013","Europe",36.1380038502031
+"Turkey","X2014","Europe",33.5195100150625
+"Turkey","X2015","Europe",32.9297255929522
+"Turkey","X2016","Europe",32.7
+"United Arab Emirates","X1996","Middle East",5.89801
+"United Arab Emirates","X1997","Middle East",4.84277
+"United Arab Emirates","X1998","Middle East",7.13875
+"United Arab Emirates","X1999","Middle East",4.81531495501266
+"United Arab Emirates","X2000","Middle East",3.09265776465136
+"United Arab Emirates","X2001","Middle East",2.68968848289814
+"United Arab Emirates","X2002","Middle East",3.59459820892458
+"United Arab Emirates","X2003","Middle East",4.40369045333119
+"United Arab Emirates","X2004","Middle East",5.64005727376988
+"United Arab Emirates","X2005","Middle East",6.63151356361156
+"United Arab Emirates","X2006","Middle East",6.84153839437208
+"United Arab Emirates","X2007","Middle East",7.852535719655
+"United Arab Emirates","X2008","Middle East",12.530937358531
+"United Arab Emirates","X2009","Middle East",24.0835908032556
+"United Arab Emirates","X2010","Middle East",22.225315790994
+"United Arab Emirates","X2011","Middle East",17.5516751380171
+"United Arab Emirates","X2012","Middle East",17.0346405100082
+"United Arab Emirates","X2013","Middle East",15.8202375218276
+"United Arab Emirates","X2014","Middle East",15.5850459152944
+"United Arab Emirates","X2015","Middle East",18.0762995817214
+"United Arab Emirates","X2016","Middle East",60.3
+"Venezuela","X1998","South America",31.4446152917183
+"Venezuela","X1999","South America",31.1843516770019
+"Venezuela","X2000","South America",28.2414388452847
+"Venezuela","X2001","South America",31.7241513671216
+"Venezuela","X2002","South America",55.0315777515556
+"Venezuela","X2003","South America",55.8168027773639
+"Venezuela","X2004","South America",42.1740883658385
+"Venezuela","X2005","South America",35.5648664536794
+"Venezuela","X2006","South America",25.6581830056914
+"Venezuela","X2007","South America",26.3644145880131
+"Venezuela","X2008","South America",20.3113203366019
+"Venezuela","X2009","South America",27.5736404723603
+"Venezuela","X2010","South America",36.4605624503517
+"Venezuela","X2011","South America",50.5704146753238
+"Venezuela","X2012","South America",58.0918161189477
+"Venezuela","X2013","South America",73.7024183321575
+"Venezuela","X2014","South America",63.4893093687043
+"Venezuela","X2015","South America",41.5006009403101
+"Venezuela","X2016","South America",36.7
+"Vietnam","X1996","Southeast Asia",94.4395
+"Vietnam","X1997","Southeast Asia",76.1495
+"Vietnam","X1998","Southeast Asia",79.3128
+"Vietnam","X1999","Southeast Asia",75.8121
+"Vietnam","X2000","Southeast Asia",41.6636
+"Vietnam","X2001","Southeast Asia",39.8961
+"Vietnam","X2002","Southeast Asia",40.7523
+"Vietnam","X2003","Southeast Asia",44.2952
+"Vietnam","X2004","Southeast Asia",43.3919
+"Vietnam","X2005","Southeast Asia",36.5415360197171
+"Vietnam","X2006","Southeast Asia",38.4068991086889
+"Vietnam","X2007","Southeast Asia",40.8971520459538
+"Vietnam","X2008","Southeast Asia",39.4189074449676
+"Vietnam","X2009","Southeast Asia",45.1666012834821
+"Vietnam","X2010","Southeast Asia",48.0840053578092
+"Vietnam","X2011","Southeast Asia",45.786618532419
+"Vietnam","X2012","Southeast Asia",47.9214610653152
+"Vietnam","X2013","Southeast Asia",51.8298955836807
+"Vietnam","X2014","Southeast Asia",55.1337331776878
+"Vietnam","X2015","Southeast Asia",58.2526543649326
+"Vietnam","X2016","Southeast Asia",54.9
+"Yemen","X1996","Middle East",231.017
+"Yemen","X1997","Middle East",106.484
+"Yemen","X1998","Middle East",121.417
+"Yemen","X1999","Middle East",96.0502515910929
+"Yemen","X2000","Middle East",60.8407450318148
+"Yemen","X2001","Middle East",60.5685780376764
+"Yemen","X2002","Middle East",57.8272275593712
+"Yemen","X2003","Middle East",56.8230116397574
+"Yemen","X2004","Middle East",52.0680944426196
+"Yemen","X2005","Middle East",43.8007104987594
+"Yemen","X2006","Middle East",40.8423716628606
+"Yemen","X2007","Middle East",40.407905841435
+"Yemen","X2008","Middle East",36.4212660335396
+"Yemen","X2009","Middle East",49.842357838477
+"Yemen","X2010","Middle East",42.3795725343077
+"Yemen","X2011","Middle East",45.7259848053261
+"Yemen","X2012","Middle East",47.3123779304882
+"Yemen","X2013","Middle East",48.1997622316507
+"Yemen","X2014","Middle East",48.7221463997642
+"Yemen","X2015","Middle East",66.6709416234254
+"Yemen","X2016","Middle East",92.2
