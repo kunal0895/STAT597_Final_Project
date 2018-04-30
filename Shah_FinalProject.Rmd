@@ -6,24 +6,204 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE)
 library(tidyverse)
 library(stringr)
 library(rvest)
 library(dplyr)
-library(maps)
 library(ggplot2)
 library(curl)
+library(knitr)
+library(maps)
+```
+
+#### First, I scrape the latest public debt to GDP ratio data from the Wikipedia website.
+```{r Gather data}
+url <- "https://en.wikipedia.org/wiki/List_of_countries_by_public_debt"
+public_debt_by_country <- url %>%
+  read_html() %>%
+  html_nodes("table") %>%
+  html_table(fill = TRUE)
 
 ```
 
+#### Change the column names
+
+```{r Change Column Names}
+public_debt_by_country_df <- public_debt_by_country[[1]]
+
+colnames(public_debt_by_country_df) <- c('Country', 'Debt_as_pct_of_GDP', 
+                                         'Measure_year',
+                                         'Gross_debt_as_pct_of_GDP_IMF',
+                                         'Net_debt_as_pct_of_GDP_IMF',
+                                         'Measure_year_IMF', 'Region')
+
+```
+
+#### Tidy the column names of the historical data. I obtained this data from the website.I will cite the link in the references at the end.
+```{r Tidy data}
+
+historydata <- read.csv("HistoricDebt.csv")
+historydata <- historydata[, -c(6:201, 222:227)]
+
+dfnames <- colnames(historydata)
+
+dfnames[1] <- 'Country'
+dfnames[2] <- 'Country_Code'
+dfnames[3] <- 'Indicator_Name'
+dfnames[4] <- 'Indicator_Code'
+
+colnames(historydata) <- dfnames
+
+table(public_debt_by_country_df$Measure_year)
+```
+
+#### Data present from 1996-2015, to avoid inconsistencies, I take from Wikipedia only those countries which have their data taken in the year 2016, since they consist of the majority of all countries.
+
+#### Wikipedia has a couple of different sources for very similar data. Take the relevant data from it.
+
+```{r Tidy latest data}
+df_2016 <- filter(public_debt_by_country_df, Measure_year=='2016')
+
+df_2016 %>%
+  select(-Gross_debt_as_pct_of_GDP_IMF,
+         -Net_debt_as_pct_of_GDP_IMF,
+         -Measure_year_IMF) -> 
+  df_2016
+
+count(df_2016)
+```
+
+#### We have 137 countries, but now we merge them with the historical data. For consistency, we keep only those countries which have data from 1996-2015 and 2016. This would result in proper comparison since we have countries that has the data for the years 1996-2016, barring a few NA values.
+
+```{r Merge data}
+public_debt_by_country_combined <- inner_join(historydata, df_2016, by="Country")
+
+count(public_debt_by_country_combined)
+
+```
+
+#### We now have data of 122 countries. 
+#### The debt data as of 2016 was present for 137 countries.
+#### The debt data from 1996-2015 was present for 191 countries.
+#### The large difference might be because few countries might not have data for either till 2015 or for 2016.
+#### Tidy the dataset after combining. This would again result in data being reduced but our analysis would be accurate.
+
+```{r Tidy Merged Data}
+dfnames_combined <- colnames(public_debt_by_country_combined)
+
+dfnames_combined <- gsub('Debt_as_pct_of_GDP', 'X2016', dfnames_combined)
+
+colnames(public_debt_by_country_combined) <- dfnames_combined
+```
+
+#### Get map data, inspect it.
+
+```{r inspect map data}
+df.map <- map_data('world')
+#df.map %>% glimpse()
+df.map %>% names()
+```
+
+#### Inspect the combined public debt data
+#### Rename Region to Country, as Region in the world map is actually a country in public debt database.
+#### Identify join mismatches
+#### We will use an anti-join to identify mis-matches between the country variable on our two different datasets.
+
+```{r}
+public_debt_by_country_combined %>% glimpse()
+df.map %>% rename(Country = region) -> df.map
+anti_join(public_debt_by_country_combined, df.map, by='Country')
+```
+
+#### We see that 3 names are different.
+#### Get country names from df.map. 
+#### These will be the new names that we will use when we recode the names in the public debt dataset.
+
+```{r, echo = FALSE}
+#df.map %>% 
+  #group_by(Country) %>% 
+  #summarise() %>% 
+  #print(n = Inf)
+
+```
+
+#### RECODE
+#### Reinspect join mismatches
+```{r check}
+anti_join(public_debt_by_country_combined, df.map, by='Country')
+
+df.map_public_debt <- left_join(df.map
+                                ,public_debt_by_country_combined
+                                ,by = 'Country'
+)
+
+df.map_public_debt$Measure_year = NULL
+#df.map_public_debt$Indicator_Code = NULL
+
+#df.map_public_debt %>% glimpse()
+```
+
+#### The dataset is tidy enough at this point.
+#### Though it would still have a few NA values, we can plot and do some analysis.
+#### I save it as a CSV file, which someone can import and use it for analysis.
+
+```{r}
+write.csv(df.map_public_debt, "Public_Debt_Data_Cleaned.csv", row.names = FALSE)
+```
+
+#### Basic plot
+```{r}
+df.map_public_debt %>% 
+  ggplot(aes(x = long, y = lat, group = group)) +
+  geom_polygon(aes(fill = X2016))
+```
+
+#### Set theme
 
 ```{r}
 
+theme.map <- theme(
+  text = element_text(family = 'Helvetica Neue', color = '#444444')
+  ,panel.background = element_rect(fill = '#CCCCCC')
+  ,plot.background = element_rect(fill = '#CCCCCC')
+  ,legend.background = element_rect(fill = '#CCCCCC')
+  ,panel.grid = element_blank()
+  ,plot.title = element_text(size = 18, face = 'bold')
+  ,plot.subtitle = element_text(size = 12)
+  ,legend.key = element_blank()
+  ,axis.text = element_blank()
+  ,axis.ticks = element_blank()
+  ,axis.title = element_blank()
+)
 ```
 
+#### Map for 2016 for the whole world
 
+```{r}
+plot.debt_to_gdp_map <- df.map_public_debt %>% 
+  ggplot(aes(x = long, y = lat, group = group)) +
+  geom_polygon(aes(fill = X2016)) +
+  theme.map +
+  labs(title = str_c('Countries in the developed world are'
+                     ,'\ncarrying high levels of debt compared to GDP'
+  )
+  ,fill = str_c('Net public debt','\nas a % of GDP')
+  ) +
+  scale_fill_gradientn(colors = c('#009933', '#ffff00', 'orange', '#e60000')
+                       ,values = scales::rescale(c(30, 50, 70, 100, 200))
+  )
 
-```{r, echo=FALSE}
+plot.debt_to_gdp_map
+```
 
+#### For Europe
+
+```{r}
+plot.debt_to_gdp_map  + coord_cartesian(xlim = c(-15, 50), ylim = c(30, 75)) +
+  labs(title = "European countries have high levels of public debt"
+       ,subtitle = str_c('In particular, countries in southern Europe - including Portugal, Italy,'
+                         ,'\nGreece, and Spain - have high levels of public debt.'
+       )
+  )
 ```
