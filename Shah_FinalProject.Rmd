@@ -2,7 +2,8 @@
 title: "Shah_FinalProject"
 author: "Kunal Shah"
 date: "30 April 2018"
-output: html_document
+output:
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -40,7 +41,7 @@ colnames(public_debt_by_country_df) <- c('Country', 'Debt_as_pct_of_GDP',
 
 ```
 
-#### Tidy the column names of the historical data. I obtained this data from the website.I will cite the link in the references at the end.
+#### Tidy the column names of the historical data. I obtained this data from the IMF website.
 ```{r Tidy data}
 
 historydata <- read.csv("HistoricDebt.csv")
@@ -55,10 +56,10 @@ dfnames[4] <- 'Indicator_Code'
 
 colnames(historydata) <- dfnames
 
-table(public_debt_by_country_df$Measure_year)
+knitr::kable(table(public_debt_by_country_df$Measure_year))
 ```
 
-#### Data present from 1996-2015, to avoid inconsistencies, I take from Wikipedia only those countries which have their data taken in the year 2016, since they consist of the majority of all countries.
+#### The data is present from 1996-2015, to avoid inconsistencies, I take from Wikipedia only those countries which have their data taken in the year 2016, since they consist of the majority of all countries.
 
 #### Wikipedia has a couple of different sources for very similar data. Take the relevant data from it.
 
@@ -74,7 +75,7 @@ df_2016 %>%
 count(df_2016)
 ```
 
-#### We have 137 countries, but now we merge them with the historical data. For consistency, we keep only those countries which have data from 1996-2015 and 2016. This would result in proper comparison since we have countries that has the data for the years 1996-2016, barring a few NA values.
+#### We have 137 countries, but now we merge the data we have for them with the historical data. For consistency, we keep only those countries which have data from 1996-2015 and 2016. This would result in proper comparison since we would then have the resulting countries that have the data for the years 1996-2016, barring a few NA values.
 
 ```{r Merge data}
 public_debt_by_country_combined <- inner_join(historydata, df_2016, by="Country")
@@ -89,7 +90,7 @@ count(public_debt_by_country_combined)
 #### The large difference might be because few countries might not have data for either till 2015 or for 2016.
 #### Tidy the dataset after combining. This would again result in data being reduced but our analysis would be accurate.
 
-```{r Tidy Merged Data}
+```{r Tidy Merged Data, echo = FALSE}
 dfnames_combined <- colnames(public_debt_by_country_combined)
 
 dfnames_combined <- gsub('Debt_as_pct_of_GDP', 'X2016', dfnames_combined)
@@ -99,21 +100,21 @@ colnames(public_debt_by_country_combined) <- dfnames_combined
 
 #### Get map data, inspect it.
 
-```{r inspect map data}
+```{r Inspect map data}
 df.map <- map_data('world')
 #df.map %>% glimpse()
 df.map %>% names()
 ```
 
-#### Inspect the combined public debt data
+#### Inspect the combined public debt data.
 #### Rename Region to Country, as Region in the world map is actually a country in public debt database.
 #### Identify join mismatches
 #### We will use an anti-join to identify mis-matches between the country variable on our two different datasets.
 
-```{r}
+```{r Check Mismatch}
 public_debt_by_country_combined %>% glimpse()
 df.map %>% rename(Country = region) -> df.map
-anti_join(public_debt_by_country_combined, df.map, by='Country')
+knitr::kable(anti_join(public_debt_by_country_combined, df.map, by='Country'))
 ```
 
 #### We see that 3 names are different.
@@ -128,9 +129,18 @@ anti_join(public_debt_by_country_combined, df.map, by='Country')
 
 ```
 
-#### RECODE
-#### Reinspect join mismatches
-```{r check}
+#### Recode and Reinspect join mismatches
+
+```{r ReCheck Mismatch, echo = FALSE}
+
+public_debt_by_country_combined %>%
+  mutate(Country = recode(Country,
+                          `Trinidad and Tobago` = 'Trinidad',
+                          `United Kingdom` = 'UK',
+                          `United States` = 'USA')
+         ) -> 
+  public_debt_by_country_combined
+
 anti_join(public_debt_by_country_combined, df.map, by='Country')
 
 df.map_public_debt <- left_join(df.map
@@ -148,20 +158,19 @@ df.map_public_debt$Measure_year = NULL
 #### Though it would still have a few NA values, we can plot and do some analysis.
 #### I save it as a CSV file, which someone can import and use it for analysis.
 
-```{r}
+```{r SaveasCSV, echo = FALSE}
 write.csv(df.map_public_debt, "Public_Debt_Data_Cleaned.csv", row.names = FALSE)
 ```
 
 #### Basic plot
-```{r}
+```{r BasicPlot for the year 2016}
 df.map_public_debt %>% 
   ggplot(aes(x = long, y = lat, group = group)) +
   geom_polygon(aes(fill = X2016))
 ```
 
-#### Set theme
 
-```{r}
+```{r Set the theme, echo = FALSE}
 
 theme.map <- theme(
   text = element_text(family = 'Helvetica Neue', color = '#444444')
@@ -180,7 +189,7 @@ theme.map <- theme(
 
 #### Map for 2016 for the whole world
 
-```{r}
+```{r Plot world map, echo = FALSE}
 plot.debt_to_gdp_map <- df.map_public_debt %>% 
   ggplot(aes(x = long, y = lat, group = group)) +
   geom_polygon(aes(fill = X2016)) +
@@ -197,9 +206,9 @@ plot.debt_to_gdp_map <- df.map_public_debt %>%
 plot.debt_to_gdp_map
 ```
 
-#### For Europe
+#### For Europe, by using the cartesian coordinates.
 
-```{r}
+```{r Map for Europe, echo = FALSE}
 plot.debt_to_gdp_map  + coord_cartesian(xlim = c(-15, 50), ylim = c(30, 75)) +
   labs(title = "European countries have high levels of public debt"
        ,subtitle = str_c('In particular, countries in southern Europe - including Portugal, Italy,'
@@ -208,9 +217,9 @@ plot.debt_to_gdp_map  + coord_cartesian(xlim = c(-15, 50), ylim = c(30, 75)) +
   )
 ```
 
-#### Now some analysis
+#### Now some analysis. I use gather since I have the years as column names, and after I use gather, it makes it easier for me to analyze.
 
-```{r}
+```{r Gather and save, echo = FALSE}
 df_Continents_tidy <- gather(df.map_public_debt, `X1996`:`X2016`, key="year", value="count")
 
 df_Continents_tidy_notNA <- na.omit(df_Continents_tidy)
@@ -224,20 +233,26 @@ write.csv(df_by_Continents, "Continent_and_Country/Continent_Level_Data.csv", ro
 
 #### Each point is the mean here, for example a value in 2015 for the Asian region would represent the average Public debt to GDP ratio of all countries in that continent.
 
-```{r}
+```{r Plot for all continents, echo = FALSE}
 ggplot(data = df_by_Continents, aes(df_by_Continents$year, df_by_Continents$Total, colour = Region, group = df_by_Continents$Region)) +
   geom_point() + geom_line() + theme(axis.text.x = element_text(angle=90, hjust=1)) + 
   xlab("Year") + ylab("Public debt as percentage of GDP") + 
   ggtitle("Public debt as percentage of GDP for Continents from 1996 to 2016")
 ```
 
-#### Since the above plot just takes the average over all the countries for a continent, let us analyze at the country level. Many values exist for each country because of the group and order of that country
-#### But since we are interested in data at country level, we take the mean. All values are the same for each country
-#### The granularity of the data is Region(Continent), country, and subregion
-#### However, different sub regions for one country have the same debt to GDP ratio. This means that the value differs with each country. For any subregion within the same country, the value is the same.
-#### To summarize, the mean gives us the same value. (A country having 10 entries, and 2 sub regions, which means 20 entries overall, but all 20 entries having the same debt to GDP ratio value, will lead to the mean of those 20 values resulting in the same value.)
+#### We can see that Asia has the highest and increasing debt to GDP ratio. This is not good, but there might be many developing countries here. For the other continents, it is not that fluctuating. Africa, Southeast Asia and South America has some fluctuations during 1996 - 2006, but it does not change much then. 
 
-```{r}
+#### Since the above plot just takes the average over all the countries for a continent, let us analyze at the country level. Many values exist for each country because of the group and order of that country.
+
+#### But since we are interested in data at country level, we take the mean. All values are the same for each country.
+
+#### The granularity of the data is Region(Continent), country, and subregion.
+
+#### However, different sub regions for one country have the same debt to GDP ratio. This means that the value differs with each country. For any subregion within the same country, the value is the same.
+
+#### To summarize, the mean gives us the same value. (A country having 10 entries, and 2 sub regions, which means 20 entries overall, but all 20 entries having the same debt to GDP ratio value, will lead to the mean of those 20 values resulting in the same value).
+
+```{r Country Level Data}
 df_public_debt_country <- df_Continents_tidy_notNA %>%
   group_by(Country, year, Region) %>%
   summarise(Debt_as_pct_of_GDP = mean(count))
@@ -245,21 +260,31 @@ df_public_debt_country <- df_Continents_tidy_notNA %>%
 write.csv(df_public_debt_country, "Continent_and_Country/Country_Level_Data.csv", row.names = FALSE)
 ```
 
-#### Which country had the highest ever debt to GDP ratio from 1996 to 2016?
+#### Which 5 countries had the highest ever debt to GDP ratio from 1996 to 2016?
 
-```{r}
-arrange(df_public_debt_country, desc(Debt_as_pct_of_GDP))[1:5, ]
+```{r Top 5 countries with the highest ratio, echo = FALSE}
+knitr::kable(arrange(df_public_debt_country, desc(Debt_as_pct_of_GDP))[1:5, ])
 
 ```
 
 #### Japan had the highest, infact the highest for the past 5 years.
 
-#### Which country had the lowest ever debt to GDP ratio from 1996 to 2016?
+#### Which 5 countries had the lowest ever debt to GDP ratio from 1996 to 2016?
 
-```{r}
-arrange(df_public_debt_country, Debt_as_pct_of_GDP)[1:5, ]
+```{r Top 5 countries with the lowest ratio, echo = FALSE}
+knitr::kable(arrange(df_public_debt_country, Debt_as_pct_of_GDP)[1:5, ])
 ```
 
 #### The African and Middle East Countries have the lowest ratio. Might be because they have a smaller area?
-#### Which might mean lesser population? GDP might be low. Or is it not too developed? Not much growth? There can be many factors
+#### Which might mean lesser population? GDP might be low. Or is it not too developed? Not much growth? There can be many factors.
 #### But a lower ratio would would still be good as they owe very less money.
+
+#### I have also created a Shiny App. Since this does not cover much of the visualization, users have a choice in the app to visualize the debt to GDP ratio over time, for a country or a continent.
+
+#### Users can select the level of granularity that they want too see, and accordingly choose the time, and continent or the country for which they want to see the ratio. They will be able to see how it changed over time.
+
+#### It is a very basic app. In the future I plan to add a feature where users can select multiple countries, or multiple continents, and do a comparison of 2 or 3 countries (major ones of the same continent) in the same plot. Also I could add a functionality to choose a country based on the continent, rather than just a list of all countries I show right now in the dropdown.
+
+#### The flow for the app is that the user selects either of the choices (Continent and Country Level), and then vary the time slider. The continent drop down will work if the continent level choice is selected, and the country level drop down will work if the country level choie is selected.
+
+#### I tried creating a PDF version of this but it wouldn't let me probably because of the World map plots, it gave me an error at that point. The fon't did not match, as a result I created an HTML report.

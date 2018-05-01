@@ -1144,6 +1144,27 @@
 "Turkey","X2014","Europe",33.5195100150625
 "Turkey","X2015","Europe",32.9297255929522
 "Turkey","X2016","Europe",32.7
+"UK","X1996","Europe",44.5512375405981
+"UK","X1997","Europe",43.8667312843836
+"UK","X1998","Europe",41.6417085242597
+"UK","X1999","Europe",39.5527832315745
+"UK","X2000","Europe",36.980357362589
+"UK","X2001","Europe",34.3043526760815
+"UK","X2002","Europe",34.2348795721152
+"UK","X2003","Europe",35.7559948134692
+"UK","X2004","Europe",38.6611274345262
+"UK","X2005","Europe",40.013715541695
+"UK","X2006","Europe",41.0167595923179
+"UK","X2007","Europe",42.2101522643691
+"UK","X2008","Europe",50.2670285861869
+"UK","X2009","Europe",64.2034434624429
+"UK","X2010","Europe",75.7370556186917
+"UK","X2011","Europe",81.3242734330954
+"UK","X2012","Europe",84.817533151368
+"UK","X2013","Europe",85.9951033679148
+"UK","X2014","Europe",87.9353408542206
+"UK","X2015","Europe",88.9843599563534
+"UK","X2016","Europe",92.2
 "United Arab Emirates","X1996","Middle East",5.89801
 "United Arab Emirates","X1997","Middle East",4.84277
 "United Arab Emirates","X1998","Middle East",7.13875
@@ -1165,6 +1186,27 @@
 "United Arab Emirates","X2014","Middle East",15.5850459152944
 "United Arab Emirates","X2015","Middle East",18.0762995817214
 "United Arab Emirates","X2016","Middle East",60.3
+"USA","X1996","North America",68.0278513360864
+"USA","X1997","North America",65.6206470948687
+"USA","X1998","North America",62.4721741641797
+"USA","X1999","North America",58.8776912173976
+"USA","X2000","North America",53.0320781167621
+"USA","X2001","North America",53.0219430276812
+"USA","X2002","North America",55.3787579622911
+"USA","X2003","North America",58.5172633229589
+"USA","X2004","North America",65.4922779568918
+"USA","X2005","North America",64.8931394487425
+"USA","X2006","North America",63.641199777712
+"USA","X2007","North America",64.014304832457
+"USA","X2008","North America",72.8473238747637
+"USA","X2009","North America",86.0340772155652
+"USA","X2010","North America",94.7320173211088
+"USA","X2011","North America",98.9947753968395
+"USA","X2012","North America",102.497522477213
+"USA","X2013","North America",104.621196417338
+"USA","X2014","North America",104.605125020842
+"USA","X2015","North America",105.151987758259
+"USA","X2016","North America",73.8
 "Venezuela","X1998","South America",31.4446152917183
 "Venezuela","X1999","South America",31.1843516770019
 "Venezuela","X2000","South America",28.2414388452847

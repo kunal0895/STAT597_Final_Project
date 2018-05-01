@@ -103,10 +103,12 @@ ui <- fluidPage(
           'Yemen'
         ),
         selected = "None"
+        
       )
     ),
     
     # Show a plot of the generated distribution
+    
     mainPanel(
       plotOutput("main_plot"),
       tableOutput("results"))
