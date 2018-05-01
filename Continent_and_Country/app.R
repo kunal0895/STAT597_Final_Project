@@ -1,6 +1,10 @@
 library(shiny)
 library(tidyverse)
 library(ggplot2)
+library(dplyr)
+
+df_by_Continents <- read.csv("Continent_Level_Data.csv", header = TRUE, stringsAsFactors = FALSE)
+df_public_debt_country <- read.csv("Country_Level_Data.csv", header = TRUE, stringsAsFactors = FALSE)
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
@@ -112,8 +116,12 @@ ui <- fluidPage(
 
 # Define server logic required to draw a histogram
 server <- function(input, output, session) {
-  #reduced_df <- reactive({
   
+  #df_by_Continents <- read.csv("Continent_Level_Data.csv")
+  #df_public_debt_country <- read.csv("Country_Level_Data.csv")
+  #reduced_df <- reactive({
+    #Continents <- readr::read_csv("~/Project/FinalProject/STAT597_Final_Project/Continent_Level_Data.csv")
+    #country <- readr::read.csv("Country_Level_Data.csv")
   #  filter(
   #    df_public_debt_country, 
   #    Country == input$state, 
@@ -122,6 +130,9 @@ server <- function(input, output, session) {
   #})
   
   output$main_plot <- renderPlot({
+    
+    #df_by_Continents <- reduced_df()$Continents
+    
     sRegion <- input$region
     plot_type <- input$plotType
     if(plot_type == "Continent Level")
@@ -165,6 +176,7 @@ server <- function(input, output, session) {
   output$results <- renderTable({
     plot_type = input$plotType
     Region = input$region
+    Country = input$country
     if(plot_type == "Continent Level") 
     {
       if(Region != "All")
@@ -185,13 +197,13 @@ server <- function(input, output, session) {
       }
     }
     
-    else
+    else if(plot_type == "Country Level")
     {
       if(Country != "None")
       {
         filter(
-          df_public_debt_country, 
-          Country == input$country, 
+          df_public_debt_country,
+          Country == input$country,
           year >= paste('X',input$yearInput[1], sep="") & year <= paste('X',input$yearInput[2], sep="")
         )
       }

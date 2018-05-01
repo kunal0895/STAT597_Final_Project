@@ -400,7 +400,7 @@ df_by_Continents &lt;- df_Continents_tidy_notNA %&gt;%
   group_by(Region, year) %&gt;%
   summarise(Total = mean(count))
 
-write.csv(df_by_Continents, &quot;Continent Level Data&quot;, row.names = FALSE)</code></pre>
+write.csv(df_by_Continents, &quot;Continent_Level_Data.csv&quot;, row.names = FALSE)</code></pre>
 </div>
 <div id="each-point-is-the-mean-here-for-example-a-value-in-2015-for-the-asian-region-would-represent-the-average-public-debt-to-gdp-ratio-of-all-countries-in-that-continent." class="section level4">
 <h4>Each point is the mean here, for example a value in 2015 for the Asian region would represent the average Public debt to GDP ratio of all countries in that continent.</h4>
@@ -428,7 +428,7 @@ write.csv(df_by_Continents, &quot;Continent Level Data&quot;, row.names = FALSE)
   group_by(Country, year, Region) %&gt;%
   summarise(Debt_as_pct_of_GDP = mean(count))
 
-write.csv(df_public_debt_country, &quot;Country Level Data&quot;, row.names = FALSE)</code></pre>
+write.csv(df_public_debt_country, &quot;Country_Level_Data.csv&quot;, row.names = FALSE)</code></pre>
 </div>
 <div id="which-country-had-the-highest-ever-debt-to-gdp-ratio-from-1996-to-2016" class="section level4">
 <h4>Which country had the highest ever debt to GDP ratio from 1996 to 2016?</h4>

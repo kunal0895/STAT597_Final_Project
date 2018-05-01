@@ -219,7 +219,7 @@ df_by_Continents <- df_Continents_tidy_notNA %>%
   group_by(Region, year) %>%
   summarise(Total = mean(count))
 
-write.csv(df_by_Continents, "Continent Level Data", row.names = FALSE)
+write.csv(df_by_Continents, "Continent_and_Country/Continent_Level_Data.csv", row.names = FALSE)
 ```
 
 #### Each point is the mean here, for example a value in 2015 for the Asian region would represent the average Public debt to GDP ratio of all countries in that continent.
@@ -242,7 +242,7 @@ df_public_debt_country <- df_Continents_tidy_notNA %>%
   group_by(Country, year, Region) %>%
   summarise(Debt_as_pct_of_GDP = mean(count))
 
-write.csv(df_public_debt_country, "Country Level Data", row.names = FALSE)
+write.csv(df_public_debt_country, "Continent_and_Country/Country_Level_Data.csv", row.names = FALSE)
 ```
 
 #### Which country had the highest ever debt to GDP ratio from 1996 to 2016?
